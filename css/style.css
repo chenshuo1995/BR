@@ -1,0 +1,251 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	line-height: 0.56rem;
+}
+.swiper-container{
+	height: 5.4rem;
+	width: 100%;
+	text-align: center;
+}
+#swiper-wrapper{
+	width: 100%;
+	height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#swiper-slide{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+#swiper-slide img{
+	height: 5.4rem;
+    float: left;
+
+}
+.block{
+    display: block;
+}
+.toptitle{
+	font-size: 0.4rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    line-height: 1.1rem;
+    border: 1px solid #ccc;
+}
+.content-title{
+	font-size: 0.4rem;
+	padding-left: 0.2rem;
+    line-height: 1.24rem;
+    
+}
+.content-title span{
+	background: #00b1bb;
+    color: #FFFFFF;
+    padding: 0.1rem;
+}
+.content-all{
+	font-size: 0.28rem;
+	border-bottom: 0.213333rem solid #eaeaea;
+}
+.content-words{
+	padding:0 0.5rem 0.3rem;
+	color: #484848;
+	display: block;
+}
+.sevrices{
+	margin-top: 0.5rem;
+}
+.door-sevrice{
+	color: #00b1bb;
+}
+.place{
+	color: #484848;
+	font-weight: bold;
+}
+.content-words img{
+	width: 100%;
+	height: 4.3rem;
+}
+.content-box{
+    border-bottom: 0.213333rem solid #eaeaea;
+}
+.list{
+	width: 100%;
+	list-style: none;
+	position: relative;
+	padding-bottom: 0.2rem;
+}
+.list li{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 0.5rem;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 0.28rem;
+}
+.left{
+	float: left;
+	padding-left: 0.6rem;
+
+}
+.left img{
+	width: 1.38rem;
+    height: 1.38rem;
+    display: block;
+}
+.right{
+	padding-left: 0.4rem;
+	float: left;
+	/*width: 2.5rem;*/
+}
+.right p{
+	font-size: 0.28rem;
+	display: block;
+	
+}
+.right .big{
+	font-size: 0.36rem;
+	color: #00b1bb;
+}
+.right .one{
+	float: left;
+    font-size: 0.24rem;
+    padding: 0 0.12rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    text-align: center;
+    background: #f0f0f0;
+    margin-right: 0.4rem;
+    margin-bottom: 0.12rem;
+    color: #505050;
+
+}
+.item{
+	width: 4.2rem;
+}
+.list .arrow{
+	position: absolute;
+    right: 0.6rem;
+    top: 0.64rem;
+    width: 0.2rem;
+    height: 0.38rem;
+    font-size: 0.533333rem;
+    text-align: center;
+    line-height: 0.38rem;
+    color: #ccc;
+}
+.list .arrow1{
+	position: absolute;
+    right: 0.6rem;
+    top: 2.64rem;
+    width: 0.2rem;
+    height: 0.38rem;
+    font-size: 0.533333rem;
+    text-align: center;
+    line-height: 0.38rem;
+    color: #ccc;
+}
+.list .arrow2{
+	position: absolute;
+    right: 0.6rem;
+    top: 4.9rem;
+    width: 0.2rem;
+    height: 0.38rem;
+    font-size: 0.533333rem;
+    text-align: center;
+    line-height: 0.38rem;
+    color: #ccc;
+}
+.list .arrow3{
+	position: absolute;
+    right: 0.6rem;
+    top: 7rem;
+    width: 0.2rem;
+    height: 0.38rem;
+    font-size: 0.533333rem;
+    text-align: center;
+    line-height: 0.38rem;
+    color: #ccc;
+}
+.list .arrow4{
+	position: absolute;
+    right: 0.6rem;
+    top: 9.2rem;
+    width: 0.2rem;
+    height: 0.38rem;
+    font-size: 0.533333rem;
+    text-align: center;
+    line-height: 0.38rem;
+    color: #ccc;
+}
+.content-words .items{
+	margin-top: 0.4rem;
+    overflow: hidden;
+    font-size: 0.28rem; 
+}
+.items img{
+	width: 4.2rem;
+    height: 0.54rem;
+}
+.items span{
+	color: #00b1bb;
+}
+.content-words p{
+	font-size: 0.28rem;
+}
+.content-words .question{
+	font-size: 0.28rem;
+	color: #00b1bb;
+	font-weight: bold;
+}
+.footer{
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0.48rem;
+    font-weight: bold;
+    background: #00b1bb;
+}
+.content-m{
+	margin-bottom: 0.9rem;
+}
+#topnav{
+    display: none;
+    width: 100%;
+    height: 1.4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    z-index: 100;
+}
+#mylist{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#mylist .active{
+    color: darkcyan;
+}
+#mylist li{
+    list-style: none;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 0.36rem;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid darkcyan;
+    -webkit-box-sizing: border-box;
+    position: relative;
+}
